@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    overflow-x: hidden;
+  }
+
+#home {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/60bb54c1a93337235e745ee6/9e9160e9-99e2-41dd-b8b4-389806aca085/EGAMING+COVER+SHOT.JPG");
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#home-title, #home-sub {
+    position: relative;
+    z-index: 2;
+}
+
+#home-title, #home-sub, #feat-sub,#about p, label, h3, #copyright, #list {
+    color: white;
+    text-shadow: 0 0 10px white;
+}
+
+#resources {
+    color: #ff37a3;
+    text-shadow: 0 0 10px #ff37a3;
+}
+
+h2, h5, #feat-title {
+    color: #6c5ce7; 
+     text-shadow: 0 0 10px #6c5ce7;
+}
+
+h1, h2, h5, #navbar{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#navbar, #brand, #categories {
+    font-size: 1.5rem;
+}
+
+#feat-title {
+    font-size: 2rem;
+}
